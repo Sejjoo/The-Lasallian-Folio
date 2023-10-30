@@ -1,0 +1,75 @@
+body {
+    padding: 50px;
+    /*background-image: url("images/TLF-header.png");*/
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(6, 56, 10, 0.8); 
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+}
+
+/*.img-resize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+}*/
+
+.alert {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert-danger {
+    background-color: #d13939;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+p{
+    color:white;
+}
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-btn {
+    text-align: center;
+}
